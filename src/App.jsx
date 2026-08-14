@@ -1,5 +1,6 @@
 // // D:\saikiran_personal\engagement-invitation\src\App.jsx
 // import { useEffect, useState, useRef } from "react";
+
 // import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 // import { 
 //   FaPhone, 
@@ -157,7 +158,7 @@
 //   };
 
 //   return (
-//     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#FFF9F0] via-[#FFF5E7] to-[#FFF0E0]">
+//     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#F8F3FA] via-[#F2EAF6] to-[#F8EEF2]">
 //       {/* Video Background with Overlay */}
 //       <div className="fixed inset-0 -z-20 overflow-hidden">
 //         <AnimatePresence>
@@ -190,8 +191,8 @@
 //         {/* Rangoli Pattern */}
 //         <div className="absolute inset-0 opacity-10"
 //           style={{
-//             backgroundImage: `radial-gradient(circle at 30% 40%, #D4AF37 2px, transparent 2px),
-//                               radial-gradient(circle at 70% 60%, #B76E79 2px, transparent 2px)`,
+//             backgroundImage: `radial-gradient(circle at 30% 40%, #C6A15B 2px, transparent 2px),
+//                               radial-gradient(circle at 70% 60%, #B45376 2px, transparent 2px)`,
 //             backgroundSize: '50px 50px'
 //           }}
 //         />
@@ -205,25 +206,25 @@
 //           className="relative w-full h-full"
 //         >
 //           <motion.div 
-//             className="absolute top-20 left-[5%] text-6xl text-[#D4AF37]/20"
+//             className="absolute top-20 left-[5%] text-6xl text-[#C6A15B]/20"
 //             {...rotateAnimation}
 //           >
 //             <GiLotus />
 //           </motion.div>
 //           <motion.div 
-//             className="absolute bottom-40 right-[5%] text-7xl text-[#B76E79]/20"
+//             className="absolute bottom-40 right-[5%] text-7xl text-[#B45376]/20"
 //             {...rotateAnimation}
 //           >
 //             <GiIndianPalace />
 //           </motion.div>
 //           <motion.div 
-//             className="absolute top-1/3 right-[15%] text-5xl text-[#D4AF37]/15"
+//             className="absolute top-1/3 right-[15%] text-5xl text-[#C6A15B]/15"
 //             {...floatAnimation}
 //           >
 //             <GiFlowerTwirl />
 //           </motion.div>
 //           <motion.div 
-//             className="absolute bottom-1/4 left-[10%] text-6xl text-[#B76E79]/15"
+//             className="absolute bottom-1/4 left-[10%] text-6xl text-[#B45376]/15"
 //             {...floatAnimation}
 //           >
 //             <GiTempleGate />
@@ -234,7 +235,7 @@
 //         {[...Array(15)].map((_, i) => (
 //           <motion.div
 //             key={i}
-//             className="absolute text-[#D4AF37]/20 text-2xl"
+//             className="absolute text-[#C6A15B]/20 text-2xl"
 //             initial={{
 //               x: Math.random() * window.innerWidth,
 //               y: Math.random() * window.innerHeight,
@@ -283,7 +284,7 @@
 //   />
 // </motion.div>
 //               <span className="font-heading text-xl text-[#3E2723] font-bold tracking-wide">
-//                 SAI PAVAN <span className="text-[#D4AF37]">❤️</span> KAVYA
+//                 SAI PAVAN <span className="text-[#C6A15B]">❤️</span> KAVYA
 //               </span>
 //             </motion.div>
 
@@ -297,7 +298,7 @@
 //                 <motion.button
 //                   key={item.id}
 //                   onClick={() => scrollToSection(item.id)}
-//                   className="relative text-[#3E2723]/80 hover:text-[#D4AF37] transition-colors font-medium"
+//                   className="relative text-[#3E2723]/80 hover:text-[#C6A15B] transition-colors font-medium"
 //                   whileHover={{ scale: 1.1 }}
 //                   whileTap={{ scale: 0.95 }}
 //                 >
@@ -305,7 +306,7 @@
 //                   {activeSection === item.id && (
 //                     <motion.div
 //                       layoutId="activeNav"
-//                       className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#D4AF37]"
+//                       className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#C6A15B]"
 //                     />
 //                   )}
 //                 </motion.button>
@@ -326,7 +327,7 @@
 //         <AnimatePresence>
 //           {isMenuOpen && (
 //             <motion.div 
-//               className="md:hidden bg-white/95 backdrop-blur-md border-t border-[#D4AF37]/20"
+//               className="md:hidden bg-white/95 backdrop-blur-md border-t border-[#C6A15B]/20"
 //               initial={{ opacity: 0, height: 0 }}
 //               animate={{ opacity: 1, height: 'auto' }}
 //               exit={{ opacity: 0, height: 0 }}
@@ -336,7 +337,7 @@
 //                   <motion.button
 //                     key={item}
 //                     onClick={() => scrollToSection(item.id)}
-//                     className="block w-full text-left py-2 text-[#3E2723]/80 hover:text-[#D4AF37] text-lg capitalize border-b border-[#D4AF37]/10"
+//                     className="block w-full text-left py-2 text-[#3E2723]/80 hover:text-[#C6A15B] text-lg capitalize border-b border-[#C6A15B]/10"
 //                     whileHover={{ x: 10 }}
 //                   >
 //                     {item}
@@ -359,8 +360,8 @@
 //             className="absolute inset-0 flex items-center justify-center pointer-events-none"
 //             {...rotateAnimation}
 //           >
-//             <div className="w-[600px] h-[600px] border border-[#D4AF37]/20 rounded-full" />
-//             <div className="absolute w-[400px] h-[400px] border border-[#B76E79]/20 rounded-full" />
+//             <div className="w-[600px] h-[600px] border border-[#C6A15B]/20 rounded-full" />
+//             <div className="absolute w-[400px] h-[400px] border border-[#B45376]/20 rounded-full" />
 //           </motion.div>
 
 //           <div className="text-center relative z-10">
@@ -372,7 +373,7 @@
 //               className="inline-block mb-8"
 //             >
 //               <motion.div 
-//                 className="bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] text-white px-8 py-4 rounded-full shadow-xl"
+//                 className="bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] text-white px-8 py-4 rounded-full shadow-xl"
 //                 whileHover={{ scale: 1.05 }}
 //                 animate={{
 //                   backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
@@ -410,7 +411,7 @@
 //               >
 //                 Sai Pavan
 //                 <motion.span 
-//                   className="block text-2xl md:text-3xl text-[#D4AF37] mt-4 font-light tracking-[0.3em]"
+//                   className="block text-2xl md:text-3xl text-[#C6A15B] mt-4 font-light tracking-[0.3em]"
 //                   animate={{ 
 //                     letterSpacing: ['0.2em', '0.4em', '0.2em'],
 //                   }}
@@ -431,22 +432,22 @@
 //                 <motion.div
 //                   animate={{ rotate: 360 }}
 //                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                   className="text-3xl text-[#D4AF37]"
+//                   className="text-3xl text-[#C6A15B]"
 //                 >
 //                   <FaRing />
 //                 </motion.div>
-//                 <span className="text-3xl text-[#B76E79] font-heading">✧</span>
+//                 <span className="text-3xl text-[#B45376] font-heading">✧</span>
 //                 <motion.div
 //                   animate={{ scale: [1, 1.2, 1] }}
 //                   transition={{ duration: 2, repeat: Infinity }}
 //                 >
-//                   <FaHeart className="text-3xl text-[#B76E79]" />
+//                   <FaHeart className="text-3xl text-[#B45376]" />
 //                 </motion.div>
-//                 <span className="text-3xl text-[#B76E79] font-heading">✧</span>
+//                 <span className="text-3xl text-[#B45376] font-heading">✧</span>
 //                 <motion.div
 //                   animate={{ rotate: -360 }}
 //                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                   className="text-3xl text-[#D4AF37]"
+//                   className="text-3xl text-[#C6A15B]"
 //                 >
 //                   <FaRing />
 //                 </motion.div>
@@ -468,13 +469,13 @@
 //               transition={{ delay: 1 }}
 //               className="max-w-3xl mx-auto mt-12 relative"
 //             >
-//               <FaQuoteLeft className="absolute -left-4 -top-4 text-4xl text-[#D4AF37]/30" />
+//               <FaQuoteLeft className="absolute -left-4 -top-4 text-4xl text-[#C6A15B]/30" />
 //               <p className="text-xl md:text-2xl text-[#3E2723]/80 italic font-light px-12 leading-relaxed">
 //                 "As the sacred fire witnesses our union, as the holy chants fill the air, 
 //                 we seek your blessings to begin this beautiful journey of togetherness, 
 //                 bound by love, tradition, and eternal devotion."
 //               </p>
-//               <FaQuoteRight className="absolute -right-4 -bottom-4 text-4xl text-[#D4AF37]/30" />
+//               <FaQuoteRight className="absolute -right-4 -bottom-4 text-4xl text-[#C6A15B]/30" />
 //             </motion.div>
 
 //             {/* Date and Time */}
@@ -484,21 +485,21 @@
 //               className="mt-12 inline-block"
 //             >
 //               <motion.div 
-//                 className="bg-white/90 backdrop-blur-md px-10 py-5 rounded-2xl shadow-xl border-2 border-[#D4AF37]/30"
+//                 className="bg-white/90 backdrop-blur-md px-10 py-5 rounded-2xl shadow-xl border-2 border-[#C6A15B]/30"
 //                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(212, 175, 55, 0.2)" }}
 //               >
 //                 <div className="flex flex-wrap items-center justify-center gap-6 text-xl md:text-2xl">
 //                   <div className="flex items-center gap-2">
-//                     <MdDateRange className="text-[#D4AF37]" />
+//                     <MdDateRange className="text-[#C6A15B]" />
 //                     <span className="text-[#3E2723] font-semibold">25th February 2026</span>
 //                   </div>
-//                   <div className="w-px h-8 bg-[#D4AF37]/30 hidden md:block" />
+//                   <div className="w-px h-8 bg-[#C6A15B]/30 hidden md:block" />
 //                   <div className="flex items-center gap-2">
-//                     <BsFillClockFill className="text-[#B76E79]" />
+//                     <BsFillClockFill className="text-[#B45376]" />
 //                     <span className="text-[#3E2723] font-semibold">9:00 AM - 2:00 PM</span>
 //                   </div>
 //                 </div>
-//                 <p className="text-[#B76E79] text-sm mt-2">Lunch follows ceremony</p>
+//                 <p className="text-[#B45376] text-sm mt-2">Lunch follows ceremony</p>
 //               </motion.div>
 //             </motion.div>
 
@@ -512,7 +513,7 @@
 //             >
 //               <motion.button
 //                 onClick={() => scrollToSection('details')}
-//                 className="bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg flex items-center gap-2 hover:shadow-xl transition-all"
+//                 className="bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg flex items-center gap-2 hover:shadow-xl transition-all"
 //                 whileHover={{ scale: 1.05 }}
 //                 whileTap={{ scale: 0.95 }}
 //               >
@@ -540,9 +541,9 @@
 //           animate={{ y: [0, 15, 0] }}
 //           transition={{ duration: 2, repeat: Infinity }}
 //         >
-//           <div className="w-8 h-14 border-2 border-[#D4AF37] rounded-full flex justify-center relative">
+//           <div className="w-8 h-14 border-2 border-[#C6A15B] rounded-full flex justify-center relative">
 //             <motion.div 
-//               className="w-1.5 h-3 bg-[#D4AF37] rounded-full absolute top-3"
+//               className="w-1.5 h-3 bg-[#C6A15B] rounded-full absolute top-3"
 //               animate={{ y: [0, 20, 0] }}
 //               transition={{ duration: 2, repeat: Infinity }}
 //             />
@@ -569,7 +570,7 @@
 //             >
 //               The Auspicious Celebration
 //             </motion.h2>
-//             <div className="w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+//             <div className="w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
 //             <p className="text-[#3E2723]/70 text-lg mt-6 max-w-2xl mx-auto">
 //               Join us as we begin our sacred journey together, blessed by tradition and love
 //             </p>
@@ -616,16 +617,16 @@
 //                 className="group relative"
 //               >
 //                 <div className={`absolute inset-0 bg-gradient-to-r ${item.gradient} rounded-3xl opacity-0 group-hover:opacity-10 transition-all duration-500`} />
-//                 <div className="relative bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-[#D4AF37]/20">
+//                 <div className="relative bg-white/90 backdrop-blur-sm p-8 rounded-3xl shadow-xl border border-[#C6A15B]/20">
 //                   <motion.div 
-//                     className="text-5xl text-[#D4AF37] mb-4"
+//                     className="text-5xl text-[#C6A15B] mb-4"
 //                     animate={{ scale: [1, 1.1, 1] }}
 //                     transition={{ duration: 2, repeat: Infinity, delay: index * 0.5 }}
 //                   >
 //                     {item.icon}
 //                   </motion.div>
 //                   <h3 className="text-xl font-heading font-bold text-[#3E2723] mb-2">{item.title}</h3>
-//                   <p className="text-2xl font-bold text-[#D4AF37] mb-2">{item.value}</p>
+//                   <p className="text-2xl font-bold text-[#C6A15B] mb-2">{item.value}</p>
 //                   <p className="text-[#3E2723]/60 text-sm">{item.sub}</p>
 //                 </div>
 //               </motion.div>
@@ -637,7 +638,7 @@
 //             initial={{ opacity: 0, y: 50 }}
 //             whileInView={{ opacity: 1, y: 0 }}
 //             viewport={{ once: true }}
-//             className="mt-20 bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-xl border border-[#D4AF37]/20"
+//             className="mt-20 bg-white/90 backdrop-blur-sm p-10 rounded-3xl shadow-xl border border-[#C6A15B]/20"
 //           >
 //             <h3 className="text-3xl font-heading text-[#3E2723] text-center mb-10">Sacred Ceremony Schedule</h3>
 //             <div className="space-y-6 max-w-2xl mx-auto">
@@ -653,13 +654,13 @@
 //                   whileInView={{ opacity: 1, x: 0 }}
 //                   viewport={{ once: true }}
 //                   transition={{ delay: index * 0.1 }}
-//                   className="flex items-start gap-6 p-4 bg-gradient-to-r from-[#D4AF37]/5 to-transparent rounded-xl hover:from-[#D4AF37]/10 transition-all"
+//                   className="flex items-start gap-6 p-4 bg-gradient-to-r from-[#C6A15B]/5 to-transparent rounded-xl hover:from-[#C6A15B]/10 transition-all"
 //                 >
-//                   <div className="text-2xl text-[#D4AF37] mt-1">{item.icon}</div>
+//                   <div className="text-2xl text-[#C6A15B] mt-1">{item.icon}</div>
 //                   <div className="flex-1">
 //                     <div className="flex items-center gap-4 mb-1">
-//                       <p className="text-lg font-bold text-[#D4AF37]">{item.time}</p>
-//                       <div className="h-px flex-1 bg-gradient-to-r from-[#D4AF37]/30 to-transparent" />
+//                       <p className="text-lg font-bold text-[#C6A15B]">{item.time}</p>
+//                       <div className="h-px flex-1 bg-gradient-to-r from-[#C6A15B]/30 to-transparent" />
 //                     </div>
 //                     <p className="text-[#3E2723] font-semibold text-lg">{item.event}</p>
 //                     <p className="text-[#3E2723]/60 text-sm">{item.desc}</p>
@@ -683,7 +684,7 @@
 //             <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl text-[#3E2723] mb-4">
 //               Venue
 //             </h2>
-//             <div className="w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+//             <div className="w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
 //             <p className="text-[#3E2723]/70 text-lg mt-6">Where love meets tradition</p>
 //           </motion.div>
 
@@ -691,21 +692,21 @@
 //             initial={{ opacity: 0, scale: 0.95 }}
 //             whileInView={{ opacity: 1, scale: 1 }}
 //             viewport={{ once: true }}
-//             className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl overflow-hidden border border-[#D4AF37]/30"
+//             className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl overflow-hidden border border-[#C6A15B]/30"
 //           >
 //             <div className="p-8 md:p-12">
 //               <div className="flex flex-col items-center mb-8">
 //                 <motion.div
 //                   animate={{ rotate: 360 }}
 //                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-//                   className="text-5xl text-[#D4AF37] mb-4"
+//                   className="text-5xl text-[#C6A15B] mb-4"
 //                 >
 //                   <GiIndianPalace />
 //                 </motion.div>
 //                 <h3 className="text-3xl md:text-4xl font-heading font-bold text-[#3E2723] text-center">
 //                   RAMBABU'S HOME
 //                 </h3>
-//                 <div className="flex items-center gap-2 mt-2 text-[#B76E79]">
+//                 <div className="flex items-center gap-2 mt-2 text-[#B45376]">
 //                   <MdLocationOn />
 //                   <span>Hyderabad, Telangana</span>
 //                 </div>
@@ -713,11 +714,11 @@
 
 //               {/* Elegant Map Preview */}
 //               <div className="relative h-80 mb-8 rounded-2xl overflow-hidden group">
-//                 <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/20 to-[#B76E79]/20 flex items-center justify-center">
+//                 <div className="absolute inset-0 bg-gradient-to-br from-[#C6A15B]/20 to-[#B45376]/20 flex items-center justify-center">
 //                   <div className="text-center">
-//                     <GiTempleGate className="text-6xl text-[#D4AF37] mx-auto mb-4 opacity-50" />
+//                     <GiTempleGate className="text-6xl text-[#C6A15B] mx-auto mb-4 opacity-50" />
 //                     <p className="text-[#3E2723]/60 flex items-center gap-2">
-//                       <FaMapMarkerAlt className="text-[#D4AF37]" />
+//                       <FaMapMarkerAlt className="text-[#C6A15B]" />
 //                       Click below for live directions
 //                     </p>
 //                   </div>
@@ -729,7 +730,7 @@
 //                   onClick={handleDirections}
 //                   whileHover={{ scale: 1.05 }}
 //                   whileTap={{ scale: 0.95 }}
-//                   className="bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white px-10 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transition-all"
+//                   className="bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white px-10 py-4 rounded-full text-lg font-semibold flex items-center justify-center gap-3 shadow-xl hover:shadow-2xl transition-all"
 //                 >
 //                   <FaMapMarkerAlt />
 //                   Get Live Directions
@@ -737,7 +738,7 @@
 //               </div>
 
 //               {/* Nearby Landmarks */}
-//               <div className="mt-8 pt-8 border-t border-[#D4AF37]/20">
+//               <div className="mt-8 pt-8 border-t border-[#C6A15B]/20">
 //                 <p className="text-center text-[#3E2723]/60 text-sm">
 //                   🏨 Nearby Hotels Available • 🚗 Ample Parking • ♿ Wheelchair Accessible
 //                 </p>
@@ -759,7 +760,7 @@
 //             <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl text-[#3E2723] mb-4">
 //               Connect With Us
 //             </h2>
-//             <div className="w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto mb-6" />
+//             <div className="w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto mb-6" />
 //             <p className="text-[#3E2723]/70 text-lg max-w-2xl mx-auto">
 //               Your presence is our greatest gift. Please reach out with any questions
 //             </p>
@@ -769,24 +770,24 @@
 //             initial={{ opacity: 0, y: 50 }}
 //             whileInView={{ opacity: 1, y: 0 }}
 //             viewport={{ once: true }}
-//             className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-3xl shadow-2xl border border-[#D4AF37]/30"
+//             className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-3xl shadow-2xl border border-[#C6A15B]/30"
 //           >
 //             <div className="grid md:grid-cols-2 gap-8">
 //               {/* Call Card */}
 //               <motion.div
 //                 whileHover={{ scale: 1.03, y: -5 }}
-//                 className="bg-gradient-to-br from-[#D4AF37]/10 to-[#B76E79]/10 p-8 rounded-2xl cursor-pointer border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all"
+//                 className="bg-gradient-to-br from-[#C6A15B]/10 to-[#B45376]/10 p-8 rounded-2xl cursor-pointer border border-[#C6A15B]/20 hover:border-[#C6A15B]/50 transition-all"
 //                 onClick={handleCall}
 //               >
 //                 <motion.div 
-//                   className="w-16 h-16 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] rounded-full flex items-center justify-center text-white text-2xl mb-4 mx-auto shadow-lg"
+//                   className="w-16 h-16 bg-gradient-to-r from-[#C6A15B] to-[#B45376] rounded-full flex items-center justify-center text-white text-2xl mb-4 mx-auto shadow-lg"
 //                   animate={{ scale: [1, 1.1, 1] }}
 //                   transition={{ duration: 2, repeat: Infinity }}
 //                 >
 //                   <FaPhone />
 //                 </motion.div>
 //                 <h3 className="font-heading text-2xl font-bold text-[#3E2723] text-center mb-2">Call Us</h3>
-//                 <p className="text-[#D4AF37] text-xl text-center font-semibold">+91 89785 53778</p>
+//                 <p className="text-[#C6A15B] text-xl text-center font-semibold">+91 89785 53778</p>
 //                 <p className="text-[#3E2723]/60 text-sm text-center mt-2">Click to connect directly</p>
 //               </motion.div>
 
@@ -817,14 +818,14 @@
 //               viewport={{ once: true }}
 //             >
 //               <div className="flex justify-center gap-3 text-2xl mb-4">
-//                 <FaHeart className="text-[#B76E79] animate-pulse" />
-//                 <FaHeart className="text-[#D4AF37] animate-pulse delay-100" />
-//                 <FaHeart className="text-[#B76E79] animate-pulse delay-200" />
+//                 <FaHeart className="text-[#B45376] animate-pulse" />
+//                 <FaHeart className="text-[#C6A15B] animate-pulse delay-100" />
+//                 <FaHeart className="text-[#B45376] animate-pulse delay-200" />
 //               </div>
 //               <p className="text-[#3E2723]/80 text-lg mb-2">
 //                 We can't wait to celebrate with you!
 //               </p>
-//               <p className="text-[#D4AF37] text-sm">
+//               <p className="text-[#C6A15B] text-sm">
 //                 Kindly RSVP by 25th February 2026
 //               </p>
 //               <p className="text-[#3E2723]/60 text-xs mt-4">
@@ -836,7 +837,7 @@
 //       </section>
 
 //       {/* BLESSINGS SECTION */}
-//       <section className="py-20 px-4 bg-gradient-to-r from-[#D4AF37]/10 to-[#B76E79]/10">
+//       <section className="py-20 px-4 bg-gradient-to-r from-[#C6A15B]/10 to-[#B45376]/10">
 //         <div className="max-w-4xl mx-auto">
 //           <motion.div
 //             initial={{ opacity: 0, y: 30 }}
@@ -873,11 +874,11 @@
 //       </section>
 
 //       {/* FOOTER */}
-//       <footer className="relative bg-white/90 backdrop-blur-sm py-16 px-4 border-t border-[#D4AF37]/20">
+//       <footer className="relative bg-white/90 backdrop-blur-sm py-16 px-4 border-t border-[#C6A15B]/20">
 //         {/* Decorative Elements */}
 //         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-//           <div className="absolute top-0 left-0 w-32 h-32 border-t-4 border-l-4 border-[#D4AF37]/20 rounded-tl-3xl" />
-//           <div className="absolute bottom-0 right-0 w-32 h-32 border-b-4 border-r-4 border-[#B76E79]/20 rounded-br-3xl" />
+//           <div className="absolute top-0 left-0 w-32 h-32 border-t-4 border-l-4 border-[#C6A15B]/20 rounded-tl-3xl" />
+//           <div className="absolute bottom-0 right-0 w-32 h-32 border-b-4 border-r-4 border-[#B45376]/20 rounded-br-3xl" />
 //         </div>
 
 //         <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -901,7 +902,7 @@
 //                     delay: i * 0.2
 //                   }}
 //                 >
-//                   <FaLeaf className="text-[#D4AF37] text-2xl" />
+//                   <FaLeaf className="text-[#C6A15B] text-2xl" />
 //                 </motion.div>
 //               ))}
 //             </div>
@@ -910,11 +911,11 @@
 //               Sai Pavan Gorantala & Kavya
 //             </h3>
             
-//             <p className="text-xl text-[#B76E79] mb-6 font-light">
+//             <p className="text-xl text-[#B45376] mb-6 font-light">
 //               25th February 2026 · 9:00 AM - 2:00 PM
 //             </p>
 
-//             <div className="w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] mx-auto mb-8" />
+//             <div className="w-24 h-1 bg-gradient-to-r from-[#C6A15B] to-[#B45376] mx-auto mb-8" />
 
 //             <p className="text-lg text-[#3E2723]/70 italic max-w-2xl mx-auto mb-8 leading-relaxed">
 //               "With hearts full of gratitude and souls filled with joy, we thank the Almighty 
@@ -926,21 +927,21 @@
 //               <motion.div
 //                 animate={{ rotate: 360 }}
 //                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                 className="text-[#D4AF37]"
+//                 className="text-[#C6A15B]"
 //               >
 //                 <GiPrayerBeads />
 //               </motion.div>
 //               <motion.div
 //                 animate={{ scale: [1, 1.2, 1] }}
 //                 transition={{ duration: 2, repeat: Infinity }}
-//                 className="text-[#B76E79]"
+//                 className="text-[#B45376]"
 //               >
 //                 <FaHeart />
 //               </motion.div>
 //               <motion.div
 //                 animate={{ rotate: -360 }}
 //                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                 className="text-[#D4AF37]"
+//                 className="text-[#C6A15B]"
 //               >
 //                 <GiPrayerBeads />
 //               </motion.div>
@@ -956,7 +957,7 @@
 //       {/* Floating Action Button */}
 //       <motion.button
 //         onClick={() => scrollToSection('home')}
-//         className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-4 rounded-full shadow-xl hover:shadow-2xl transition-all"
+//         className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-4 rounded-full shadow-xl hover:shadow-2xl transition-all"
 //         initial={{ scale: 0 }}
 //         animate={{ scale: 1 }}
 //         whileHover={{ scale: 1.1 }}
@@ -999,6 +1000,7 @@
 
 // // D:\saikiran_personal\engagement-invitation\src\App.jsx
 // import { useEffect, useState, useRef } from "react";
+
 // import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 // import { 
 //   FaPhone, 
@@ -1134,7 +1136,7 @@
 //   };
 
 //   return (
-//     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#FFF9F0] via-[#FFF5E7] to-[#FFF0E0]">
+//     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#F8F3FA] via-[#F2EAF6] to-[#F8EEF2]">
 //       {/* Video Background with Overlay */}
 //       <div className="fixed inset-0 -z-20 overflow-hidden">
 //         <AnimatePresence>
@@ -1159,16 +1161,16 @@
 //             </motion.video>
 //           )}
 //         </AnimatePresence>
-//         <div className={`absolute inset-0 ${isMobile ? 'bg-white/70' : 'bg-white/60 backdrop-blur-[1px]'}`} /> {/* Reduced blur for mobile */}
-//       </div>
+//         <div
+
 
 //       {/* Animated Traditional Patterns - Reduced on mobile */}
 //       <div className="fixed inset-0 -z-15 overflow-hidden pointer-events-none">
 //         {/* Rangoli Pattern - Simplified for mobile */}
 //         <div className="absolute inset-0 opacity-5 md:opacity-10"
 //           style={{
-//             backgroundImage: `radial-gradient(circle at 30% 40%, #D4AF37 1px, transparent 1px),
-//                               radial-gradient(circle at 70% 60%, #B76E79 1px, transparent 1px)`,
+//             backgroundImage: `radial-gradient(circle at 30% 40%, #C6A15B 1px, transparent 1px),
+//                               radial-gradient(circle at 70% 60%, #B45376 1px, transparent 1px)`,
 //             backgroundSize: isMobile ? '30px 30px' : '50px 50px'
 //           }}
 //         />
@@ -1183,21 +1185,21 @@
 //             className="relative w-full h-full"
 //           >
 //             <motion.div 
-//               className="absolute top-20 left-[5%] text-4xl md:text-6xl text-[#D4AF37]/20"
+//               className="absolute top-20 left-[5%] text-4xl md:text-6xl text-[#C6A15B]/20"
 //               animate={{ rotate: 360 }}
 //               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
 //             >
 //               <GiLotus />
 //             </motion.div>
 //             <motion.div 
-//               className="absolute bottom-40 right-[5%] text-5xl md:text-7xl text-[#B76E79]/20"
+//               className="absolute bottom-40 right-[5%] text-5xl md:text-7xl text-[#B45376]/20"
 //               animate={{ rotate: 360 }}
 //               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
 //             >
 //               <GiIndianPalace />
 //             </motion.div>
 //             <motion.div 
-//               className="absolute top-1/3 right-[15%] text-3xl md:text-5xl text-[#D4AF37]/15"
+//               className="absolute top-1/3 right-[15%] text-3xl md:text-5xl text-[#C6A15B]/15"
 //               animate={{ y: [-10, 10, -10] }}
 //               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
 //             >
@@ -1211,7 +1213,7 @@
 //   [...Array(12)].map((_, i) => (
 //     <motion.div
 //       key={i}
-//       className="absolute text-[#D4AF37]/20 text-lg md:text-2xl"
+//       className="absolute text-[#C6A15B]/20 text-lg md:text-2xl"
 //       initial={{
 //         x: Math.random() * window.innerWidth,
 //         y: Math.random() * window.innerHeight,
@@ -1276,7 +1278,7 @@
 //                 <motion.button
 //                   key={item.id}
 //                   onClick={() => scrollToSection(item.id)}
-//                   className="relative text-[#3E2723]/80 hover:text-[#D4AF37] transition-colors font-medium text-sm lg:text-base"
+//                   className="relative text-[#3E2723]/80 hover:text-[#C6A15B] transition-colors font-medium text-sm lg:text-base"
 //                   whileHover={{ scale: 1.1 }}
 //                   whileTap={{ scale: 0.95 }}
 //                 >
@@ -1284,7 +1286,7 @@
 //                   {activeSection === item.id && (
 //                     <motion.div
 //                       layoutId="activeNav"
-//                       className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#D4AF37]"
+//                       className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#C6A15B]"
 //                     />
 //                   )}
 //                 </motion.button>
@@ -1346,8 +1348,8 @@
 //               animate={{ rotate: 360 }}
 //               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
 //             >
-//               <div className="w-[300px] md:w-[600px] h-[300px] md:h-[600px] border border-[#D4AF37]/20 rounded-full" />
-//               <div className="absolute w-[200px] md:w-[400px] h-[200px] md:h-[400px] border border-[#B76E79]/20 rounded-full" />
+//               <div className="w-[300px] md:w-[600px] h-[300px] md:h-[600px] border border-[#C6A15B]/20 rounded-full" />
+//               <div className="absolute w-[200px] md:w-[400px] h-[200px] md:h-[400px] border border-[#B45376]/20 rounded-full" />
 //             </motion.div>
 //           )}
 
@@ -1359,7 +1361,7 @@
 //               className="inline-block mb-4 md:mb-8"
 //             >
 //               <motion.div 
-//                 className="bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] text-white px-4 md:px-8 py-2 md:py-4 rounded-full shadow-xl"
+//                 className="bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] text-white px-4 md:px-8 py-2 md:py-4 rounded-full shadow-xl"
 //                 whileHover={!isMobile ? { scale: 1.05 } : {}}
 //                 style={{ backgroundSize: '200% 200%' }}
 //               >
@@ -1389,7 +1391,7 @@
 //               >
 //                 Sai Pavan
 //                 <motion.span 
-//                   className="block text-lg md:text-2xl lg:text-3xl text-[#D4AF37] mt-2 md:mt-4 font-light tracking-[0.2em] md:tracking-[0.3em]"
+//                   className="block text-lg md:text-2xl lg:text-3xl text-[#C6A15B] mt-2 md:mt-4 font-light tracking-[0.2em] md:tracking-[0.3em]"
 //                   animate={!isMobile ? { 
 //                     letterSpacing: ['0.2em', '0.4em', '0.2em'],
 //                   } : {}}
@@ -1410,22 +1412,22 @@
 //                 <motion.div
 //                   animate={!isMobile ? { rotate: 360 } : {}}
 //                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                   className="text-2xl md:text-3xl text-[#D4AF37]"
+//                   className="text-2xl md:text-3xl text-[#C6A15B]"
 //                 >
 //                   <FaRing />
 //                 </motion.div>
-//                 <span className="text-xl md:text-3xl text-[#B76E79] font-heading">✧</span>
+//                 <span className="text-xl md:text-3xl text-[#B45376] font-heading">✧</span>
 //                 <motion.div
 //                   animate={{ scale: [1, 1.2, 1] }}
 //                   transition={{ duration: 2, repeat: Infinity }}
 //                 >
-//                   <FaHeart className="text-2xl md:text-3xl text-[#B76E79]" />
+//                   <FaHeart className="text-2xl md:text-3xl text-[#B45376]" />
 //                 </motion.div>
-//                 <span className="text-xl md:text-3xl text-[#B76E79] font-heading">✧</span>
+//                 <span className="text-xl md:text-3xl text-[#B45376] font-heading">✧</span>
 //                 <motion.div
 //                   animate={!isMobile ? { rotate: -360 } : {}}
 //                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                   className="text-2xl md:text-3xl text-[#D4AF37]"
+//                   className="text-2xl md:text-3xl text-[#C6A15B]"
 //                 >
 //                   <FaRing />
 //                 </motion.div>
@@ -1447,13 +1449,13 @@
 //               transition={{ delay: 0.8 }}
 //               className="max-w-3xl mx-auto mt-6 md:mt-12 relative px-2 md:px-0"
 //             >
-//               <FaQuoteLeft className="absolute -left-2 md:-left-4 -top-2 md:-top-4 text-2xl md:text-4xl text-[#D4AF37]/30" />
+//               <FaQuoteLeft className="absolute -left-2 md:-left-4 -top-2 md:-top-4 text-2xl md:text-4xl text-[#C6A15B]/30" />
 //               <p className="text-sm md:text-base lg:text-xl xl:text-2xl text-[#3E2723]/80 italic font-light px-6 md:px-12 leading-relaxed">
 //                 {isMobile 
 //                   ? "As the sacred fire witnesses our union, we seek your blessings to begin this beautiful journey of togetherness."
 //                   : '"As the sacred fire witnesses our union, as the holy chants fill the air, we seek your blessings to begin this beautiful journey of togetherness, bound by love, tradition, and eternal devotion."'}
 //               </p>
-//               <FaQuoteRight className="absolute -right-2 md:-right-4 -bottom-2 md:-bottom-4 text-2xl md:text-4xl text-[#D4AF37]/30" />
+//               <FaQuoteRight className="absolute -right-2 md:-right-4 -bottom-2 md:-bottom-4 text-2xl md:text-4xl text-[#C6A15B]/30" />
 //             </motion.div>
 
 //             {/* Date and Time - Mobile Optimized */}
@@ -1463,21 +1465,21 @@
 //               className="mt-6 md:mt-12 inline-block w-full sm:w-auto px-2"
 //             >
 //               <motion.div 
-//                 className="bg-white/90 backdrop-blur-md px-4 sm:px-6 md:px-10 py-3 md:py-5 rounded-2xl shadow-xl border-2 border-[#D4AF37]/30"
+//                 className="bg-white/90 backdrop-blur-md px-4 sm:px-6 md:px-10 py-3 md:py-5 rounded-2xl shadow-xl border-2 border-[#C6A15B]/30"
 //                 whileHover={!isMobile ? { scale: 1.05 } : {}}
 //               >
 //                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 text-base md:text-xl lg:text-2xl">
 //                   <div className="flex items-center gap-2">
-//                     <MdDateRange className="text-[#D4AF37] text-lg md:text-xl" />
+//                     <MdDateRange className="text-[#C6A15B] text-lg md:text-xl" />
 //                     <span className="text-[#3E2723] font-semibold">25 Feb 2026</span>
 //                   </div>
-//                   <div className="hidden sm:block w-px h-6 bg-[#D4AF37]/30" />
+//                   <div className="hidden sm:block w-px h-6 bg-[#C6A15B]/30" />
 //                   <div className="flex items-center gap-2">
-//                     <BsFillClockFill className="text-[#B76E79] text-lg md:text-xl" />
+//                     <BsFillClockFill className="text-[#B45376] text-lg md:text-xl" />
 //                     <span className="text-[#3E2723] font-semibold">9:00 AM - 2:00 PM</span>
 //                   </div>
 //                 </div>
-//                 <p className="text-[#B76E79] text-xs md:text-sm mt-2">Lunch follows ceremony</p>
+//                 <p className="text-[#B45376] text-xs md:text-sm mt-2">Lunch follows ceremony</p>
 //               </motion.div>
 //             </motion.div>
 //           </div>
@@ -1498,7 +1500,7 @@
 //             >
 //               The Auspicious Celebration
 //             </motion.h2>
-//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
 //             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg mt-4 md:mt-6 max-w-2xl mx-auto px-4">
 //               {isMobile 
 //                 ? 'Join us as we begin our sacred journey together'
@@ -1547,16 +1549,16 @@
 //                 className="group relative"
 //               >
 //                 <div className={`absolute inset-0 bg-gradient-to-r ${item.gradient} rounded-2xl md:rounded-3xl opacity-0 group-hover:opacity-10 transition-all duration-500`} />
-//                 <div className="relative bg-white/90 backdrop-blur-sm p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#D4AF37]/20">
+//                 <div className="relative bg-white/90 backdrop-blur-sm p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#C6A15B]/20">
 //                   <motion.div 
-//                     className="text-3xl md:text-4xl lg:text-5xl text-[#D4AF37] mb-3 md:mb-4"
+//                     className="text-3xl md:text-4xl lg:text-5xl text-[#C6A15B] mb-3 md:mb-4"
 //                     animate={!isMobile ? { scale: [1, 1.1, 1] } : {}}
 //                     transition={{ duration: 2, repeat: Infinity, delay: index * 0.5 }}
 //                   >
 //                     {item.icon}
 //                   </motion.div>
 //                   <h3 className="text-base md:text-lg lg:text-xl font-heading font-bold text-[#3E2723] mb-1 md:mb-2">{item.title}</h3>
-//                   <p className="text-lg md:text-xl lg:text-2xl font-bold text-[#D4AF37] mb-1 md:mb-2">{item.value}</p>
+//                   <p className="text-lg md:text-xl lg:text-2xl font-bold text-[#C6A15B] mb-1 md:mb-2">{item.value}</p>
 //                   <p className="text-xs md:text-sm text-[#3E2723]/60">{item.sub}</p>
 //                 </div>
 //               </motion.div>
@@ -1568,7 +1570,7 @@
 //             initial={{ opacity: 0, y: 30 }}
 //             whileInView={{ opacity: 1, y: 0 }}
 //             viewport={{ once: true, margin: "-30px" }}
-//             className="mt-12 md:mt-20 bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#D4AF37]/20 mx-2 md:mx-0"
+//             className="mt-12 md:mt-20 bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#C6A15B]/20 mx-2 md:mx-0"
 //           >
 //             <h3 className="text-xl md:text-2xl lg:text-3xl font-heading text-[#3E2723] text-center mb-6 md:mb-10">Sacred Ceremony Schedule</h3>
 //             <div className="space-y-4 md:space-y-6 max-w-2xl mx-auto">
@@ -1584,13 +1586,13 @@
 //                   whileInView={{ opacity: 1, x: 0 }}
 //                   viewport={{ once: true }}
 //                   transition={{ delay: index * 0.1 }}
-//                   className="flex items-start gap-3 md:gap-4 lg:gap-6 p-3 md:p-4 bg-gradient-to-r from-[#D4AF37]/5 to-transparent rounded-lg md:rounded-xl hover:from-[#D4AF37]/10 transition-all"
+//                   className="flex items-start gap-3 md:gap-4 lg:gap-6 p-3 md:p-4 bg-gradient-to-r from-[#C6A15B]/5 to-transparent rounded-lg md:rounded-xl hover:from-[#C6A15B]/10 transition-all"
 //                 >
-//                   <div className="text-xl md:text-2xl text-[#D4AF37] mt-1">{item.icon}</div>
+//                   <div className="text-xl md:text-2xl text-[#C6A15B] mt-1">{item.icon}</div>
 //                   <div className="flex-1">
 //                     <div className="flex items-center gap-2 md:gap-4 mb-1">
-//                       <p className="text-sm md:text-base lg:text-lg font-bold text-[#D4AF37]">{item.time}</p>
-//                       <div className="h-px flex-1 bg-gradient-to-r from-[#D4AF37]/30 to-transparent" />
+//                       <p className="text-sm md:text-base lg:text-lg font-bold text-[#C6A15B]">{item.time}</p>
+//                       <div className="h-px flex-1 bg-gradient-to-r from-[#C6A15B]/30 to-transparent" />
 //                     </div>
 //                     <p className="text-[#3E2723] font-semibold text-sm md:text-base lg:text-lg">{item.event}</p>
 //                     <p className="text-[#3E2723]/60 text-xs md:text-sm">{item.desc}</p>
@@ -1614,7 +1616,7 @@
 //             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#3E2723] mb-3 md:mb-4">
 //               Venue
 //             </h2>
-//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
 //             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg mt-4 md:mt-6">Where love meets tradition</p>
 //           </motion.div>
 
@@ -1622,21 +1624,21 @@
 //             initial={{ opacity: 0, scale: 0.98 }}
 //             whileInView={{ opacity: 1, scale: 1 }}
 //             viewport={{ once: true }}
-//             className="bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl overflow-hidden border border-[#D4AF37]/30 mx-2 md:mx-0"
+//             className="bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl overflow-hidden border border-[#C6A15B]/30 mx-2 md:mx-0"
 //           >
 //             <div className="p-5 md:p-8 lg:p-12">
 //               <div className="flex flex-col items-center mb-4 md:mb-8">
 //                 <motion.div
 //                   animate={!isMobile ? { rotate: 360 } : {}}
 //                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-//                   className="text-3xl md:text-4xl lg:text-5xl text-[#D4AF37] mb-3 md:mb-4"
+//                   className="text-3xl md:text-4xl lg:text-5xl text-[#C6A15B] mb-3 md:mb-4"
 //                 >
 //                   <GiIndianPalace />
 //                 </motion.div>
 //                 <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-heading font-bold text-[#3E2723] text-center">
 //                   RAMBABU'S HOME
 //                 </h3>
-//                 <div className="flex items-center gap-1 md:gap-2 mt-1 md:mt-2 text-[#B76E79] text-sm md:text-base">
+//                 <div className="flex items-center gap-1 md:gap-2 mt-1 md:mt-2 text-[#B45376] text-sm md:text-base">
 //                   <MdLocationOn />
 //                   <span>Hyderabad, Telangana</span>
 //                 </div>
@@ -1644,11 +1646,11 @@
 
 //               {/* Elegant Map Preview - Mobile Optimized */}
 //               <div className="relative h-48 md:h-64 lg:h-80 mb-6 md:mb-8 rounded-xl md:rounded-2xl overflow-hidden group">
-//                 <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/20 to-[#B76E79]/20 flex items-center justify-center">
+//                 <div className="absolute inset-0 bg-gradient-to-br from-[#C6A15B]/20 to-[#B45376]/20 flex items-center justify-center">
 //                   <div className="text-center px-4">
-//                     <GiTempleGate className="text-3xl md:text-4xl lg:text-6xl text-[#D4AF37] mx-auto mb-2 md:mb-4 opacity-50" />
+//                     <GiTempleGate className="text-3xl md:text-4xl lg:text-6xl text-[#C6A15B] mx-auto mb-2 md:mb-4 opacity-50" />
 //                     <p className="text-[#3E2723]/60 text-xs md:text-sm flex items-center gap-1 md:gap-2">
-//                       <FaMapMarkerAlt className="text-[#D4AF37]" />
+//                       <FaMapMarkerAlt className="text-[#C6A15B]" />
 //                       Click below for live directions
 //                     </p>
 //                   </div>
@@ -1660,7 +1662,7 @@
 //                   onClick={handleDirections}
 //                   whileHover={!isMobile ? { scale: 1.05 } : {}}
 //                   whileTap={{ scale: 0.95 }}
-//                   className="bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 rounded-full text-sm md:text-base lg:text-lg font-semibold flex items-center justify-center gap-2 md:gap-3 shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl transition-all w-full sm:w-auto"
+//                   className="bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 rounded-full text-sm md:text-base lg:text-lg font-semibold flex items-center justify-center gap-2 md:gap-3 shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl transition-all w-full sm:w-auto"
 //                 >
 //                   <FaMapMarkerAlt />
 //                   Get Live Directions
@@ -1668,7 +1670,7 @@
 //               </div>
 
 //               {/* Nearby Landmarks - Mobile Optimized */}
-//               <div className="mt-6 md:mt-8 pt-4 md:pt-8 border-t border-[#D4AF37]/20">
+//               <div className="mt-6 md:mt-8 pt-4 md:pt-8 border-t border-[#C6A15B]/20">
 //                 <p className="text-center text-[#3E2723]/60 text-xs md:text-sm px-2">
 //                   {isMobile 
 //                     ? '🏨 Hotels • 🚗 Parking • ♿ Accessible'
@@ -1692,7 +1694,7 @@
 //             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#3E2723] mb-3 md:mb-4">
 //               Connect With Us
 //             </h2>
-//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto mb-4 md:mb-6" />
+//             <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto mb-4 md:mb-6" />
 //             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
 //               {isMobile 
 //                 ? 'Your presence is our greatest gift'
@@ -1704,25 +1706,25 @@
 //             initial={{ opacity: 0, y: 30 }}
 //             whileInView={{ opacity: 1, y: 0 }}
 //             viewport={{ once: true }}
-//             className="bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-12 rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl border border-[#D4AF37]/30 mx-2 md:mx-0"
+//             className="bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-12 rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl border border-[#C6A15B]/30 mx-2 md:mx-0"
 //           >
 //             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
 //               {/* Call Card */}
 //               <motion.div
 //                 whileHover={!isMobile ? { scale: 1.03, y: -5 } : {}}
 //                 whileTap={{ scale: 0.98 }}
-//                 className="bg-gradient-to-br from-[#D4AF37]/10 to-[#B76E79]/10 p-5 md:p-6 lg:p-8 rounded-xl md:rounded-2xl cursor-pointer border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all"
+//                 className="bg-gradient-to-br from-[#C6A15B]/10 to-[#B45376]/10 p-5 md:p-6 lg:p-8 rounded-xl md:rounded-2xl cursor-pointer border border-[#C6A15B]/20 hover:border-[#C6A15B]/50 transition-all"
 //                 onClick={handleCall}
 //               >
 //                 <motion.div 
-//                   className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] rounded-full flex items-center justify-center text-white text-xl md:text-2xl mb-3 md:mb-4 mx-auto shadow-lg"
+//                   className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-[#C6A15B] to-[#B45376] rounded-full flex items-center justify-center text-white text-xl md:text-2xl mb-3 md:mb-4 mx-auto shadow-lg"
 //                   animate={!isMobile ? { scale: [1, 1.1, 1] } : {}}
 //                   transition={{ duration: 2, repeat: Infinity }}
 //                 >
 //                   <FaPhone />
 //                 </motion.div>
 //                 <h3 className="font-heading text-lg md:text-xl lg:text-2xl font-bold text-[#3E2723] text-center mb-1 md:mb-2">Call Us</h3>
-//                 <p className="text-[#D4AF37] text-base md:text-lg lg:text-xl text-center font-semibold">+91 89785 53778</p>
+//                 <p className="text-[#C6A15B] text-base md:text-lg lg:text-xl text-center font-semibold">+91 89785 53778</p>
 //                 <p className="text-[#3E2723]/60 text-xs md:text-sm text-center mt-1 md:mt-2">Click to connect</p>
 //               </motion.div>
 
@@ -1754,14 +1756,14 @@
 //               viewport={{ once: true }}
 //             >
 //               <div className="flex justify-center gap-2 md:gap-3 text-xl md:text-2xl mb-3 md:mb-4">
-//                 <FaHeart className="text-[#B76E79] animate-pulse" />
-//                 <FaHeart className="text-[#D4AF37] animate-pulse delay-100" />
-//                 <FaHeart className="text-[#B76E79] animate-pulse delay-200" />
+//                 <FaHeart className="text-[#B45376] animate-pulse" />
+//                 <FaHeart className="text-[#C6A15B] animate-pulse delay-100" />
+//                 <FaHeart className="text-[#B45376] animate-pulse delay-200" />
 //               </div>
 //               <p className="text-[#3E2723]/80 text-sm md:text-base lg:text-lg mb-1 md:mb-2">
 //                 We can't wait to celebrate with you!
 //               </p>
-//               <p className="text-[#D4AF37] text-xs md:text-sm">
+//               <p className="text-[#C6A15B] text-xs md:text-sm">
 //                 Kindly RSVP by 25th February 2026
 //               </p>
 //             </motion.div>
@@ -1770,7 +1772,7 @@
 //       </section>
 
 //       {/* BLESSINGS SECTION - Mobile Optimized */}
-//       <section className="py-12 md:py-20 px-3 md:px-4 bg-gradient-to-r from-[#D4AF37]/10 to-[#B76E79]/10">
+//       <section className="py-12 md:py-20 px-3 md:px-4 bg-gradient-to-r from-[#C6A15B]/10 to-[#B45376]/10">
 //         <div className="max-w-4xl mx-auto">
 //           <motion.div
 //             initial={{ opacity: 0, y: 20 }}
@@ -1808,12 +1810,12 @@
 //       </section>
 
 //       {/* FOOTER - Mobile Optimized */}
-//       <footer className="relative bg-white/90 backdrop-blur-sm py-10 md:py-16 px-3 md:px-4 border-t border-[#D4AF37]/20">
+//       <footer className="relative bg-white/90 backdrop-blur-sm py-10 md:py-16 px-3 md:px-4 border-t border-[#C6A15B]/20">
 //         {/* Decorative Elements - Simplified for mobile */}
 //         {!isMobile && (
 //           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-//             <div className="absolute top-0 left-0 w-16 md:w-32 h-16 md:h-32 border-t-4 border-l-4 border-[#D4AF37]/20 rounded-tl-3xl" />
-//             <div className="absolute bottom-0 right-0 w-16 md:w-32 h-16 md:h-32 border-b-4 border-r-4 border-[#B76E79]/20 rounded-br-3xl" />
+//             <div className="absolute top-0 left-0 w-16 md:w-32 h-16 md:h-32 border-t-4 border-l-4 border-[#C6A15B]/20 rounded-tl-3xl" />
+//             <div className="absolute bottom-0 right-0 w-16 md:w-32 h-16 md:h-32 border-b-4 border-r-4 border-[#B45376]/20 rounded-br-3xl" />
 //           </div>
 //         )}
 
@@ -1838,7 +1840,7 @@
 //                     delay: i * 0.2
 //                   }}
 //                 >
-//                   <FaLeaf className="text-[#D4AF37] text-xl md:text-2xl" />
+//                   <FaLeaf className="text-[#C6A15B] text-xl md:text-2xl" />
 //                 </motion.div>
 //               ))}
 //             </div>
@@ -1847,11 +1849,11 @@
 //               {isMobile ? 'Sai Pavan & Kavya' : 'Sai Pavan Gorantala & Kavya'}
 //             </h3>
             
-//             <p className="text-sm md:text-base lg:text-xl text-[#B76E79] mb-3 md:mb-6 font-light">
+//             <p className="text-sm md:text-base lg:text-xl text-[#B45376] mb-3 md:mb-6 font-light">
 //               25 Feb 2026 · 9:00 AM - 2:00 PM
 //             </p>
 
-//             <div className="w-16 md:w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] mx-auto mb-4 md:mb-8" />
+//             <div className="w-16 md:w-24 h-1 bg-gradient-to-r from-[#C6A15B] to-[#B45376] mx-auto mb-4 md:mb-8" />
 
 //             <p className="text-sm md:text-base lg:text-lg text-[#3E2723]/70 italic max-w-2xl mx-auto mb-4 md:mb-8 leading-relaxed px-4">
 //               {isMobile 
@@ -1863,21 +1865,21 @@
 //               <motion.div
 //                 animate={!isMobile ? { rotate: 360 } : {}}
 //                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                 className="text-[#D4AF37]"
+//                 className="text-[#C6A15B]"
 //               >
 //                 <GiPrayerBeads />
 //               </motion.div>
 //               <motion.div
 //                 animate={{ scale: [1, 1.2, 1] }}
 //                 transition={{ duration: 2, repeat: Infinity }}
-//                 className="text-[#B76E79]"
+//                 className="text-[#B45376]"
 //               >
 //                 <FaHeart />
 //               </motion.div>
 //               <motion.div
 //                 animate={!isMobile ? { rotate: -360 } : {}}
 //                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-//                 className="text-[#D4AF37]"
+//                 className="text-[#C6A15B]"
 //               >
 //                 <GiPrayerBeads />
 //               </motion.div>
@@ -1894,7 +1896,7 @@
 //       {isMobile ? (
 //   <motion.button
 //     onClick={handleDirections}
-//     className="fixed bottom-5 right-5 z-50 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-4 rounded-full shadow-xl"
+//     className="fixed bottom-5 right-5 z-50 bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-4 rounded-full shadow-xl"
 //     initial={{ scale: 0 }}
 //     animate={{ scale: 1 }}
 //     whileTap={{ scale: 0.9 }}
@@ -1904,7 +1906,7 @@
 // ) : (
 //   <motion.button
 //     onClick={() => scrollToSection('home')}
-//     className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-4 rounded-full shadow-xl"
+//     className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-4 rounded-full shadow-xl"
 //   >
 //     <FaStar className="text-xl" />
 //   </motion.button>
@@ -1928,11 +1930,12 @@
 // D:\saikiran_personal\engagement-invitation\src\App.jsx
 import { useEffect, useState, useRef } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { 
-  FaPhone, 
-  FaWhatsapp, 
-  FaMapMarkerAlt, 
-  FaHeart, 
+
+import {
+  FaPhone,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+  FaHeart,
   FaRing,
   FaCalendarAlt,
   FaClock,
@@ -2134,7 +2137,7 @@ function App() {
       blessingsTextMobile: 'May your blessings shower upon us as we begin this sacred journey of love.',
       footerNames: 'Aravind & Ruchitha',
       footerNamesMobile: 'Aravind & Ruchitha',
-      footerDate: '16 Aug 2026 · 11;55 AM',
+      footerDate: '16 Aug 2026 · 11:55 AM',
       footerText: '"With hearts full of gratitude and souls filled with joy, we thank the Almighty and our beloved families for blessing us with this sacred union. Your presence and blessings will make our celebration truly complete."',
       footerTextMobile: 'With hearts full of gratitude, we thank the Almighty and our families. Your presence will make our celebration complete.',
       footerCopyright: '© 2026 · Crafted with love for Aravind & Ruchitha',
@@ -2306,7 +2309,7 @@ function App() {
   };
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#FFF9F0] via-[#FFF5E7] to-[#FFF0E0]">
+    <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#F8F3FA] via-[#F2EAF6] to-[#F8EEF2]">
       {/* Video Background with Overlay */}
       <div className="fixed inset-0 -z-20 overflow-hidden">
         <AnimatePresence>
@@ -2331,15 +2334,21 @@ function App() {
             </motion.video>
           )}
         </AnimatePresence>
-        <div className={`absolute inset-0 ${isMobile ? 'bg-white/70' : 'bg-white/60 backdrop-blur-[1px]'}`} />
+        <div
+  className={`absolute inset-0 ${
+    isMobile
+      ? 'bg-[#F2EAF6]/75'
+      : 'bg-[#F8F3FA]/65 backdrop-blur-[1px]'
+  }`}
+/>
       </div>
 
       {/* Animated Traditional Patterns */}
       <div className="fixed inset-0 -z-15 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 opacity-5 md:opacity-10"
           style={{
-            backgroundImage: `radial-gradient(circle at 30% 40%, #D4AF37 1px, transparent 1px),
-                              radial-gradient(circle at 70% 60%, #B76E79 1px, transparent 1px)`,
+            backgroundImage: `radial-gradient(circle at 30% 40%, #C6A15B 1px, transparent 1px),
+                  radial-gradient(circle at 70% 60%, #B45376 1px, transparent 1px)`,
             backgroundSize: isMobile ? '30px 30px' : '50px 50px'
           }}
         />
@@ -2353,21 +2362,21 @@ function App() {
             className="relative w-full h-full"
           >
             <motion.div 
-              className="absolute top-20 left-[5%] text-4xl md:text-6xl text-[#D4AF37]/20"
+              className="absolute top-20 left-[5%] text-4xl md:text-6xl text-[#C6A15B]/20"
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             >
               <GiLotus />
             </motion.div>
             <motion.div 
-              className="absolute bottom-40 right-[5%] text-5xl md:text-7xl text-[#B76E79]/20"
+              className="absolute bottom-40 right-[5%] text-5xl md:text-7xl text-[#B45376]/20"
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             >
               <GiIndianPalace />
             </motion.div>
             <motion.div 
-              className="absolute top-1/3 right-[15%] text-3xl md:text-5xl text-[#D4AF37]/15"
+              className="absolute top-1/3 right-[15%] text-3xl md:text-5xl text-[#C6A15B]/15"
               animate={{ y: [-10, 10, -10] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
@@ -2380,7 +2389,7 @@ function App() {
           [...Array(12)].map((_, i) => (
             <motion.div
               key={i}
-              className="absolute text-[#D4AF37]/20 text-lg md:text-2xl"
+              className="absolute text-[#C6A15B]/20 text-lg md:text-2xl"
               initial={{
                 x: Math.random() * window.innerWidth,
                 y: Math.random() * window.innerHeight,
@@ -2445,7 +2454,7 @@ function App() {
                 <motion.button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="relative text-[#3E2723]/80 hover:text-[#D4AF37] transition-colors font-medium text-sm lg:text-base"
+                  className="relative text-[#3E2723]/80 hover:text-[#C6A15B] transition-colors font-medium text-sm lg:text-base"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -2453,7 +2462,7 @@ function App() {
                   {activeSection === item.id && (
                     <motion.div
                       layoutId="activeNav"
-                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#D4AF37]"
+                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#C6A15B]"
                     />
                   )}
                 </motion.button>
@@ -2464,19 +2473,19 @@ function App() {
               {/* Language Toggle Button */}
               <motion.button
                 onClick={toggleLanguage}
-                className="flex items-center gap-1 px-2 py-1 md:px-3 md:py-1.5 bg-gradient-to-r from-[#D4AF37]/20 to-[#B76E79]/20 rounded-full text-xs md:text-sm font-medium text-[#3E2723] border border-[#D4AF37]/30"
+                className="flex items-center gap-1 px-2 py-1 md:px-3 md:py-1.5 bg-gradient-to-r from-[#C6A15B]/20 to-[#B45376]/20 rounded-full text-xs md:text-sm font-medium text-[#3E2723] border border-[#C6A15B]/30"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 title={language === 'english' ? 'Switch to Telugu' : 'Switch to English'}
               >
-                <FaLanguage className="text-[#D4AF37] text-xs md:text-sm" />
+                <FaLanguage className="text-[#C6A15B] text-xs md:text-sm" />
                 <span>{t.languageToggle}</span>
               </motion.button>
 
               {/* Audio Control Button */}
               <motion.button
                 onClick={toggleMute}
-                className="text-[#D4AF37] hover:text-[#B76E79] transition-colors p-2"
+                className="text-[#C6A15B] hover:text-[#B45376] transition-colors p-2"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 title={isAudioMuted ? t.unmuteTitle : t.muteTitle}
@@ -2534,13 +2543,13 @@ function App() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
-            className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50 bg-white/90 backdrop-blur-md px-4 py-3 rounded-full shadow-xl border border-[#D4AF37]/30"
+            className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50 bg-white/90 backdrop-blur-md px-4 py-3 rounded-full shadow-xl border border-[#C6A15B]/30"
           >
             <div className="flex items-center gap-3">
               <span className="text-[#3E2723] text-sm">{t.audioPrompt}</span>
               <motion.button
                 onClick={toggleAudio}
-                className="bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-2 rounded-full"
+                className="bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-2 rounded-full"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -2563,8 +2572,8 @@ function App() {
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             >
-              <div className="w-[300px] md:w-[600px] h-[300px] md:h-[600px] border border-[#D4AF37]/20 rounded-full" />
-              <div className="absolute w-[200px] md:w-[400px] h-[200px] md:h-[400px] border border-[#B76E79]/20 rounded-full" />
+              <div className="w-[300px] md:w-[600px] h-[300px] md:h-[600px] border border-[#C6A15B]/20 rounded-full" />
+              <div className="absolute w-[200px] md:w-[400px] h-[200px] md:h-[400px] border border-[#B45376]/20 rounded-full" />
             </motion.div>
           )}
 
@@ -2575,7 +2584,7 @@ function App() {
               className="inline-block mb-4 md:mb-8"
             >
               <motion.div 
-                className="bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] text-white px-4 md:px-8 py-2 md:py-4 rounded-full shadow-xl"
+                className="bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] text-white px-4 md:px-8 py-2 md:py-4 rounded-full shadow-xl"
                 whileHover={!isMobile ? { scale: 1.05 } : {}}
                 style={{ backgroundSize: '200% 200%' }}
               >
@@ -2604,7 +2613,7 @@ function App() {
               >
                 {t.saiPavan}
                 <motion.span 
-                  className="block text-lg md:text-2xl lg:text-3xl text-[#D4AF37] mt-2 md:mt-4 font-light tracking-[0.2em] md:tracking-[0.3em]"
+                  className="block text-lg md:text-2xl lg:text-3xl text-[#C6A15B] mt-2 md:mt-4 font-light tracking-[0.2em] md:tracking-[0.3em]"
                   animate={!isMobile ? { 
                     letterSpacing: ['0.2em', '0.4em', '0.2em'],
                   } : {}}
@@ -2625,22 +2634,22 @@ function App() {
                 <motion.div
                   animate={!isMobile ? { rotate: 360 } : {}}
                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                  className="text-2xl md:text-3xl text-[#D4AF37]"
+                  className="text-2xl md:text-3xl text-[#C6A15B]"
                 >
                   <FaRing />
                 </motion.div>
-                <span className="text-xl md:text-3xl text-[#B76E79] font-heading">✧</span>
+                <span className="text-xl md:text-3xl text-[#B45376] font-heading">✧</span>
                 <motion.div
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
-                  <FaHeart className="text-2xl md:text-3xl text-[#B76E79]" />
+                  <FaHeart className="text-2xl md:text-3xl text-[#B45376]" />
                 </motion.div>
-                <span className="text-xl md:text-3xl text-[#B76E79] font-heading">✧</span>
+                <span className="text-xl md:text-3xl text-[#B45376] font-heading">✧</span>
                 <motion.div
                   animate={!isMobile ? { rotate: -360 } : {}}
                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                  className="text-2xl md:text-3xl text-[#D4AF37]"
+                  className="text-2xl md:text-3xl text-[#C6A15B]"
                 >
                   <FaRing />
                 </motion.div>
@@ -2661,11 +2670,11 @@ function App() {
               transition={{ delay: 0.8 }}
               className="max-w-3xl mx-auto mt-6 md:mt-12 relative px-2 md:px-0"
             >
-              <FaQuoteLeft className="absolute -left-2 md:-left-4 -top-2 md:-top-4 text-2xl md:text-4xl text-[#D4AF37]/30" />
+              <FaQuoteLeft className="absolute -left-2 md:-left-4 -top-2 md:-top-4 text-2xl md:text-4xl text-[#C6A15B]/30" />
               <p className="text-sm md:text-base lg:text-xl xl:text-2xl text-[#3E2723]/80 italic font-light px-6 md:px-12 leading-relaxed">
                 {isMobile ? t.quoteMobile : t.quote}
               </p>
-              <FaQuoteRight className="absolute -right-2 md:-right-4 -bottom-2 md:-bottom-4 text-2xl md:text-4xl text-[#D4AF37]/30" />
+              <FaQuoteRight className="absolute -right-2 md:-right-4 -bottom-2 md:-bottom-4 text-2xl md:text-4xl text-[#C6A15B]/30" />
             </motion.div>
 
             <motion.div
@@ -2674,21 +2683,21 @@ function App() {
               className="mt-6 md:mt-12 inline-block w-full sm:w-auto px-2"
             >
               <motion.div 
-                className="bg-white/90 backdrop-blur-md px-4 sm:px-6 md:px-10 py-3 md:py-5 rounded-2xl shadow-xl border-2 border-[#D4AF37]/30"
+                className="bg-white/90 backdrop-blur-md px-4 sm:px-6 md:px-10 py-3 md:py-5 rounded-2xl shadow-xl border-2 border-[#C6A15B]/30"
                 whileHover={!isMobile ? { scale: 1.05 } : {}}
               >
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 text-base md:text-xl lg:text-2xl">
                   <div className="flex items-center gap-2">
-                    <MdDateRange className="text-[#D4AF37] text-lg md:text-xl" />
+                    <MdDateRange className="text-[#C6A15B] text-lg md:text-xl" />
                     <span className="text-[#3E2723] font-semibold">{t.date}</span>
                   </div>
-                  <div className="hidden sm:block w-px h-6 bg-[#D4AF37]/30" />
+                  <div className="hidden sm:block w-px h-6 bg-[#C6A15B]/30" />
                   <div className="flex items-center gap-2">
-                    <BsFillClockFill className="text-[#B76E79] text-lg md:text-xl" />
+                    <BsFillClockFill className="text-[#B45376] text-lg md:text-xl" />
                     <span className="text-[#3E2723] font-semibold">{t.time}</span>
                   </div>
                 </div>
-                <p className="text-[#B76E79] text-xs md:text-sm mt-2">{t.lunchFollows}</p>
+                <p className="text-[#B45376] text-xs md:text-sm mt-2">{t.lunchFollows}</p>
               </motion.div>
             </motion.div>
           </div>
@@ -2709,7 +2718,7 @@ function App() {
             >
               {t.celebrationTitle}
             </motion.h2>
-            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg mt-4 md:mt-6 max-w-2xl mx-auto px-4">
               {isMobile ? t.celebrationSubtitleMobile : t.celebrationSubtitle}
             </p>
@@ -2756,16 +2765,16 @@ function App() {
                 className="group relative"
               >
                 <div className={`absolute inset-0 bg-gradient-to-r ${item.gradient} rounded-2xl md:rounded-3xl opacity-0 group-hover:opacity-10 transition-all duration-500`} />
-                <div className="relative bg-white/90 backdrop-blur-sm p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#D4AF37]/20">
+                <div className="relative bg-white/90 backdrop-blur-sm p-5 md:p-6 lg:p-8 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#C6A15B]/20">
                   <motion.div 
-                    className="text-3xl md:text-4xl lg:text-5xl text-[#D4AF37] mb-3 md:mb-4"
+                    className="text-3xl md:text-4xl lg:text-5xl text-[#C6A15B] mb-3 md:mb-4"
                     animate={!isMobile ? { scale: [1, 1.1, 1] } : {}}
                     transition={{ duration: 2, repeat: Infinity, delay: index * 0.5 }}
                   >
                     {item.icon}
                   </motion.div>
                   <h3 className="text-base md:text-lg lg:text-xl font-heading font-bold text-[#3E2723] mb-1 md:mb-2">{item.title}</h3>
-                  <p className="text-lg md:text-xl lg:text-2xl font-bold text-[#D4AF37] mb-1 md:mb-2">{item.value}</p>
+                  <p className="text-lg md:text-xl lg:text-2xl font-bold text-[#C6A15B] mb-1 md:mb-2">{item.value}</p>
                   <p className="text-xs md:text-sm text-[#3E2723]/60">{item.sub}</p>
                 </div>
               </motion.div>
@@ -2776,7 +2785,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-30px" }}
-            className="mt-12 md:mt-20 bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#D4AF37]/20 mx-2 md:mx-0"
+            className="mt-12 md:mt-20 bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl shadow-lg md:shadow-xl border border-[#C6A15B]/20 mx-2 md:mx-0"
           >
             <h3 className="text-xl md:text-2xl lg:text-3xl font-heading text-[#3E2723] text-center mb-6 md:mb-10">{t.scheduleTitle}</h3>
             <div className="space-y-4 md:space-y-6 max-w-2xl mx-auto">
@@ -2790,13 +2799,13 @@ function App() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="flex items-start gap-3 md:gap-4 lg:gap-6 p-3 md:p-4 bg-gradient-to-r from-[#D4AF37]/5 to-transparent rounded-lg md:rounded-xl hover:from-[#D4AF37]/10 transition-all"
+                  className="flex items-start gap-3 md:gap-4 lg:gap-6 p-3 md:p-4 bg-gradient-to-r from-[#C6A15B]/5 to-transparent rounded-lg md:rounded-xl hover:from-[#C6A15B]/10 transition-all"
                 >
-                  <div className="text-xl md:text-2xl text-[#D4AF37] mt-1">{item.icon}</div>
+                  <div className="text-xl md:text-2xl text-[#C6A15B] mt-1">{item.icon}</div>
                   <div className="flex-1">
                     <div className="flex items-center gap-2 md:gap-4 mb-1">
-                      <p className="text-sm md:text-base lg:text-lg font-bold text-[#D4AF37]">{item.time}</p>
-                      <div className="h-px flex-1 bg-gradient-to-r from-[#D4AF37]/30 to-transparent" />
+                      <p className="text-sm md:text-base lg:text-lg font-bold text-[#C6A15B]">{item.time}</p>
+                      <div className="h-px flex-1 bg-gradient-to-r from-[#C6A15B]/30 to-transparent" />
                     </div>
                     <p className="text-[#3E2723] font-semibold text-sm md:text-base lg:text-lg">{item.event}</p>
                     <p className="text-[#3E2723]/60 text-xs md:text-sm">{item.desc}</p>
@@ -2809,7 +2818,10 @@ function App() {
       </section>
 
       {/* VENUE SECTION */}
-      <section id="venue" className="py-16 md:py-32 px-3 md:px-4 relative bg-gradient-to-b from-[#FFF5E7] to-[#FFF0E0]">
+      <section
+  id="venue"
+  className="py-16 md:py-32 px-3 md:px-4 relative bg-gradient-to-b from-[#F2EAF6] to-[#F8EEF2]"
+>
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -2820,7 +2832,7 @@ function App() {
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#3E2723] mb-3 md:mb-4">
               {t.venueTitle}
             </h2>
-            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto" />
+            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto" />
             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg mt-4 md:mt-6">{t.venueSubtitle}</p>
           </motion.div>
 
@@ -2828,32 +2840,32 @@ function App() {
             initial={{ opacity: 0, scale: 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl overflow-hidden border border-[#D4AF37]/30 mx-2 md:mx-0"
+            className="bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl overflow-hidden border border-[#C6A15B]/30 mx-2 md:mx-0"
           >
             <div className="p-5 md:p-8 lg:p-12">
               <div className="flex flex-col items-center mb-4 md:mb-8">
                 <motion.div
                   animate={!isMobile ? { rotate: 360 } : {}}
                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                  className="text-3xl md:text-4xl lg:text-5xl text-[#D4AF37] mb-3 md:mb-4"
+                  className="text-3xl md:text-4xl lg:text-5xl text-[#C6A15B] mb-3 md:mb-4"
                 >
                   <GiIndianPalace />
                 </motion.div>
                 <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-heading font-bold text-[#3E2723] text-center">
                   {t.venueName}
                 </h3>
-                <div className="flex items-center gap-1 md:gap-2 mt-1 md:mt-2 text-[#B76E79] text-sm md:text-base">
+                <div className="flex items-center gap-1 md:gap-2 mt-1 md:mt-2 text-[#B45376] text-sm md:text-base">
                   <MdLocationOn />
                   <span>{t.venueLocation}</span>
                 </div>
               </div>
 
               <div className="relative h-48 md:h-64 lg:h-80 mb-6 md:mb-8 rounded-xl md:rounded-2xl overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/20 to-[#B76E79]/20 flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#C6A15B]/20 to-[#B45376]/20 flex items-center justify-center">
                   <div className="text-center px-4">
-                    <GiTempleGate className="text-3xl md:text-4xl lg:text-6xl text-[#D4AF37] mx-auto mb-2 md:mb-4 opacity-50" />
+                    <GiTempleGate className="text-3xl md:text-4xl lg:text-6xl text-[#C6A15B] mx-auto mb-2 md:mb-4 opacity-50" />
                     <p className="text-[#3E2723]/60 text-xs md:text-sm flex items-center gap-1 md:gap-2">
-                      <FaMapMarkerAlt className="text-[#D4AF37]" />
+                      <FaMapMarkerAlt className="text-[#C6A15B]" />
                       {language === 'english' ? 'Click below for live directions' : 'దిగువన క్లిక్ చేయండి'}
                     </p>
                   </div>
@@ -2865,14 +2877,14 @@ function App() {
                   onClick={handleDirections}
                   whileHover={!isMobile ? { scale: 1.05 } : {}}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 rounded-full text-sm md:text-base lg:text-lg font-semibold flex items-center justify-center gap-2 md:gap-3 shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl transition-all w-full sm:w-auto"
+                  className="bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 rounded-full text-sm md:text-base lg:text-lg font-semibold flex items-center justify-center gap-2 md:gap-3 shadow-lg md:shadow-xl hover:shadow-xl md:hover:shadow-2xl transition-all w-full sm:w-auto"
                 >
                   <FaMapMarkerAlt />
                   {t.directions}
                 </motion.button>
               </div>
 
-              <div className="mt-6 md:mt-8 pt-4 md:pt-8 border-t border-[#D4AF37]/20">
+              <div className="mt-6 md:mt-8 pt-4 md:pt-8 border-t border-[#C6A15B]/20">
                 <p className="text-center text-[#3E2723]/60 text-xs md:text-sm px-2">
                   {isMobile ? t.nearbyInfoMobile : t.nearbyInfo}
                 </p>
@@ -2894,7 +2906,7 @@ function App() {
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#3E2723] mb-3 md:mb-4">
               {t.contactTitle}
             </h2>
-            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#D4AF37] via-[#B76E79] to-[#D4AF37] mx-auto mb-4 md:mb-6" />
+            <div className="w-20 md:w-32 h-1 bg-gradient-to-r from-[#C6A15B] via-[#B45376] to-[#C6A15B] mx-auto mb-4 md:mb-6" />
             <p className="text-[#3E2723]/70 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
               {isMobile ? t.contactSubtitleMobile : t.contactSubtitle}
             </p>
@@ -2904,24 +2916,24 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-12 rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl border border-[#D4AF37]/30 mx-2 md:mx-0"
+            className="bg-white/90 backdrop-blur-sm p-5 md:p-8 lg:p-12 rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl border border-[#C6A15B]/30 mx-2 md:mx-0"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
               <motion.div
                 whileHover={!isMobile ? { scale: 1.03, y: -5 } : {}}
                 whileTap={{ scale: 0.98 }}
-                className="bg-gradient-to-br from-[#D4AF37]/10 to-[#B76E79]/10 p-5 md:p-6 lg:p-8 rounded-xl md:rounded-2xl cursor-pointer border border-[#D4AF37]/20 hover:border-[#D4AF37]/50 transition-all"
+                className="bg-gradient-to-br from-[#C6A15B]/10 to-[#B45376]/10 p-5 md:p-6 lg:p-8 rounded-xl md:rounded-2xl cursor-pointer border border-[#C6A15B]/20 hover:border-[#C6A15B]/50 transition-all"
                 onClick={handleCall}
               >
                 <motion.div 
-                  className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] rounded-full flex items-center justify-center text-white text-xl md:text-2xl mb-3 md:mb-4 mx-auto shadow-lg"
+                  className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-[#C6A15B] to-[#B45376] rounded-full flex items-center justify-center text-white text-xl md:text-2xl mb-3 md:mb-4 mx-auto shadow-lg"
                   animate={!isMobile ? { scale: [1, 1.1, 1] } : {}}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
                   <FaPhone />
                 </motion.div>
                 <h3 className="font-heading text-lg md:text-xl lg:text-2xl font-bold text-[#3E2723] text-center mb-1 md:mb-2">{t.callUs}</h3>
-                <p className="text-[#D4AF37] text-base md:text-lg lg:text-xl text-center font-semibold">{t.callNumber}</p>
+                <p className="text-[#C6A15B] text-base md:text-lg lg:text-xl text-center font-semibold">{t.callNumber}</p>
                 <p className="text-[#3E2723]/60 text-xs md:text-sm text-center mt-1 md:mt-2">{t.callClick}</p>
               </motion.div>
 
@@ -2951,14 +2963,14 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="flex justify-center gap-2 md:gap-3 text-xl md:text-2xl mb-3 md:mb-4">
-                <FaHeart className="text-[#B76E79] animate-pulse" />
-                <FaHeart className="text-[#D4AF37] animate-pulse delay-100" />
-                <FaHeart className="text-[#B76E79] animate-pulse delay-200" />
+                <FaHeart className="text-[#B45376] animate-pulse" />
+                <FaHeart className="text-[#C6A15B] animate-pulse delay-100" />
+                <FaHeart className="text-[#B45376] animate-pulse delay-200" />
               </div>
               <p className="text-[#3E2723]/80 text-sm md:text-base lg:text-lg mb-1 md:mb-2">
                 {language === 'english' ? "We can't wait to celebrate with you!" : "మీతో కలిసి వేడుక చేసుకోవడానికి ఎదురుచూస్తున్నాము!"}
               </p>
-              <p className="text-[#D4AF37] text-xs md:text-sm">
+              <p className="text-[#C6A15B] text-xs md:text-sm">
                 {t.rsvp}
               </p>
             </motion.div>
@@ -2967,7 +2979,7 @@ function App() {
       </section>
 
       {/* BLESSINGS SECTION */}
-      <section className="py-12 md:py-20 px-3 md:px-4 bg-gradient-to-r from-[#D4AF37]/10 to-[#B76E79]/10">
+      <section className="py-12 md:py-20 px-3 md:px-4 bg-gradient-to-r from-[#C6A15B]/10 to-[#B45376]/10">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -3003,11 +3015,11 @@ function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="relative bg-white/90 backdrop-blur-sm py-10 md:py-16 px-3 md:px-4 border-t border-[#D4AF37]/20">
+      <footer className="relative bg-white/90 backdrop-blur-sm py-10 md:py-16 px-3 md:px-4 border-t border-[#C6A15B]/20">
         {!isMobile && (
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute top-0 left-0 w-16 md:w-32 h-16 md:h-32 border-t-4 border-l-4 border-[#D4AF37]/20 rounded-tl-3xl" />
-            <div className="absolute bottom-0 right-0 w-16 md:w-32 h-16 md:h-32 border-b-4 border-r-4 border-[#B76E79]/20 rounded-br-3xl" />
+            <div className="absolute top-0 left-0 w-16 md:w-32 h-16 md:h-32 border-t-4 border-l-4 border-[#C6A15B]/20 rounded-tl-3xl" />
+            <div className="absolute bottom-0 right-0 w-16 md:w-32 h-16 md:h-32 border-b-4 border-r-4 border-[#B45376]/20 rounded-br-3xl" />
           </div>
         )}
 
@@ -3031,7 +3043,7 @@ function App() {
                     delay: i * 0.2
                   }}
                 >
-                  <FaLeaf className="text-[#D4AF37] text-xl md:text-2xl" />
+                  <FaLeaf className="text-[#C6A15B] text-xl md:text-2xl" />
                 </motion.div>
               ))}
             </div>
@@ -3040,11 +3052,11 @@ function App() {
               {isMobile ? t.footerNamesMobile : t.footerNames}
             </h3>
             
-            <p className="text-sm md:text-base lg:text-xl text-[#B76E79] mb-3 md:mb-6 font-light">
+            <p className="text-sm md:text-base lg:text-xl text-[#B45376] mb-3 md:mb-6 font-light">
               {t.footerDate}
             </p>
 
-            <div className="w-16 md:w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] mx-auto mb-4 md:mb-8" />
+            <div className="w-16 md:w-24 h-1 bg-gradient-to-r from-[#C6A15B] to-[#B45376] mx-auto mb-4 md:mb-8" />
 
             <p className="text-sm md:text-base lg:text-lg text-[#3E2723]/70 italic max-w-2xl mx-auto mb-4 md:mb-8 leading-relaxed px-4">
               {isMobile ? t.footerTextMobile : t.footerText}
@@ -3054,21 +3066,21 @@ function App() {
               <motion.div
                 animate={!isMobile ? { rotate: 360 } : {}}
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                className="text-[#D4AF37]"
+                className="text-[#C6A15B]"
               >
                 <GiPrayerBeads />
               </motion.div>
               <motion.div
                 animate={{ scale: [1, 1.2, 1] }}
                 transition={{ duration: 2, repeat: Infinity }}
-                className="text-[#B76E79]"
+                className="text-[#B45376]"
               >
                 <FaHeart />
               </motion.div>
               <motion.div
                 animate={!isMobile ? { rotate: -360 } : {}}
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                className="text-[#D4AF37]"
+                className="text-[#C6A15B]"
               >
                 <GiPrayerBeads />
               </motion.div>
@@ -3085,7 +3097,7 @@ function App() {
       {isMobile ? (
         <motion.button
           onClick={handleDirections}
-          className="fixed bottom-5 right-5 z-50 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-4 rounded-full shadow-xl"
+          className="fixed bottom-5 right-5 z-50 bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-4 rounded-full shadow-xl"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           whileTap={{ scale: 0.9 }}
@@ -3095,7 +3107,7 @@ function App() {
       ) : (
         <motion.button
           onClick={() => scrollToSection('home')}
-          className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#D4AF37] to-[#B76E79] text-white p-4 rounded-full shadow-xl"
+          className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-[#C6A15B] to-[#B45376] text-white p-4 rounded-full shadow-xl"
         >
           <FaStar className="text-xl" />
         </motion.button>

@@ -17,10 +17,33 @@
   }
   
   body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #FFF9F0 0%, #FFF5E7 50%, #FFF0E0 100%);
-    overflow-x: hidden;
-  }
+  font-family: 'Poppins', sans-serif;
+
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(126, 87, 194, 0.18),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 20%,
+      rgba(180, 83, 118, 0.16),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(91, 61, 130, 0.12),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #F8F3FA 0%,
+      #F2EAF6 45%,
+      #F8EEF2 100%
+    );
+
+  overflow-x: hidden;
+}
 
   ::-webkit-scrollbar {
     width: 12px;
