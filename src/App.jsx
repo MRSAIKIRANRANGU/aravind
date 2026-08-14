@@ -2064,7 +2064,7 @@ function App() {
   }, [isMobile]);
 
   const mapsUrl = "https://maps.app.goo.gl/JoDsSVnCree1xvUV8";
-  const phoneNumber = "918978553778";
+  const phoneNumber = "919492645298";
   
   // Language-specific text
   const text = {
